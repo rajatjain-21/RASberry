@@ -299,3 +299,23 @@ body {
   -webkit-transform: rotate(180deg) scale(1.1);
           transform: rotate(180deg) scale(1.1);
 }
+
+
+.project {
+  width: 32%;
+  padding: 5px;
+  opacity: 0;
+  text-align: center;
+  transform: translateX(-25px);
+  transition: all .5s ease-in;
+  img {
+    display: inline-block;
+  }
+  
+}
+#portfolio {
+  background-color: #333;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
